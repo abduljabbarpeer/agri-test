@@ -1,8 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import TagManager from 'react-gtm-module';
+
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+const tagManagerArgs = {
+  gtmId: 'GTM-W2Q9N8C',
+};
+
+TagManager.initialize(tagManagerArgs);
 
 ReactDOM.render(
   <React.StrictMode>
