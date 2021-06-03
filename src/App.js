@@ -9,6 +9,16 @@ function App() {
       <button className='btn' onClick={() => setCount(count + 1)}>
         INCREMENT
       </button>
+      <hr />
+      <iframe
+        width='560'
+        height='315'
+        src='https://www.youtube.com/embed/DfQmliAmM7U'
+        title='YouTube video player'
+        frameborder='0'
+        allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+        allowfullscreen
+      ></iframe>
     </div>
   );
 }
