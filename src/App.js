@@ -40,9 +40,19 @@ function App() {
         allowfullscreen
       ></iframe>
       <hr />
-      <img name='image-1' src='https://picsum.photos/250/300' alt='random-1' />
+      <img
+        name='image-1'
+        src='https://picsum.photos/250/300'
+        alt='random-1'
+        class='img'
+      />
       <hr />
-      <img name='image-2' src='https://picsum.photos/300' alt='random-2' />
+      <img
+        name='image-2'
+        src='https://picsum.photos/300'
+        alt='random-2'
+        class='img'
+      />
     </div>
   );
 }
