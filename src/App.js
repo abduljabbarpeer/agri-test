@@ -13,7 +13,7 @@ function App() {
       <iframe
         width='560'
         height='315'
-        src='https://www.youtube.com/embed/DfQmliAmM7U'
+        src='https://www.youtube.com/embed/CH50zuS8DD0'
         title='YouTube video player'
         frameborder='0'
         allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
@@ -23,7 +23,7 @@ function App() {
       <iframe
         width='560'
         height='315'
-        src='https://www.youtube.com/embed/oBg0QyzSUxY'
+        src='https://www.youtube.com/embed/vwqQPeeVM1s'
         title='YouTube video player'
         frameborder='0'
         allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
@@ -33,7 +33,7 @@ function App() {
       <iframe
         width='560'
         height='315'
-        src='https://www.youtube.com/embed/biCpykuc6qY'
+        src='https://www.youtube.com/embed/ebvtJCu33vM'
         title='YouTube video player'
         frameborder='0'
         allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
