@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import TagManager from 'react-gtm-module';
 
 import './index.css';
@@ -13,9 +14,9 @@ const tagManagerArgs = {
 TagManager.initialize(tagManagerArgs);
 
 ReactDOM.render(
-  <React.StrictMode>
+  <Router>
     <App />
-  </React.StrictMode>,
+  </Router>,
   document.getElementById('root')
 );
 
