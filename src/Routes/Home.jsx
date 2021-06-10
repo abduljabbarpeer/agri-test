@@ -8,13 +8,14 @@ const Home = () => {
       <Helmet>
         <html lang='en' />
         <title>HOME PAGE</title>
-        <meta
-          name='description'
-          content='HOME PAGE OF APP'
-        />
+        <meta name='description' content='HOME PAGE OF APP' />
       </Helmet>
       <h1>{count}</h1>
-      <button className='btn' onClick={() => setCount(count + 1)}>
+      <button
+        id='sample_btn'
+        className='btn'
+        onClick={() => setCount(count + 1)}
+      >
         INCREMENT
       </button>
       <hr />
