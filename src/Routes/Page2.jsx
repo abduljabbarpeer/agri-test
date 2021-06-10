@@ -27,6 +27,12 @@ const Page2 = () => {
         alt='random'
         class='img'
       />
+      <hr />
+      <button
+        id='another_sample_btn'
+        className='btn'
+        onClick={() => setCount(count + 1)}
+      >
     </>
   );
 };
