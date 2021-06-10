@@ -2,6 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 
 const Page2 = () => {
+  const [count, setCount] = useState(0);
   return (
     <>
       <Helmet>
@@ -33,6 +34,8 @@ const Page2 = () => {
         className='btn'
         onClick={() => setCount(count + 1)}
       >
+        ANOTHER SAMPLE BUTTON
+      </button>
     </>
   );
 };
